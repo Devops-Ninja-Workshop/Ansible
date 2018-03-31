@@ -1,0 +1,11 @@
+---
+ 
+- hosts: server1
+
+  tasks:
+    - name: Copying war file to another server
+      copy:
+       src: Spring3HibernateApp/Spring3HibernateApp.war
+       dest: /var/lib/tomcat8/webapps/Spring3Hibernate.war  
+     become: true
+
