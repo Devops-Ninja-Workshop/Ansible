@@ -1,0 +1,9 @@
+---
+# vars file for java
+#For ubuntu give version in extra vars
+java_versions:
+  - oracle-java8-installer
+
+version: java8
+
+java_version_redhat: java-1.8.0

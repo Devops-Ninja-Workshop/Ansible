@@ -1,0 +1,5 @@
+---
+- hosts: java
+  user: root
+  roles:
+    - java
