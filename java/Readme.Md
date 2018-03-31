@@ -21,3 +21,4 @@ ansible-playbook -i hosts site.yml
 ## Variables
 The [vars](https://github.com/abhishek-ansible/java/tree/master/vars) folder contains the variable for tasks file.
 
+.
